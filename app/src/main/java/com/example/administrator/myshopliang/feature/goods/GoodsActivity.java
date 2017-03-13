@@ -33,7 +33,7 @@ import butterknife.OnClick;
 /**
  * Created by gqq on 2017/3/2.
  */
-// 商品页面
+// 商品页面  d
 public class GoodsActivity extends BaseActivity implements ViewPager.OnPageChangeListener {
 
     private static final String EXTRA_GOODS_ID = "EXTRA_GOOD_ID";
@@ -51,6 +51,8 @@ public class GoodsActivity extends BaseActivity implements ViewPager.OnPageChang
         Intent intent = new Intent(context, GoodsActivity.class);
         intent.putExtra(EXTRA_GOODS_ID, goodsId);
         return intent;
+
+
 
     }
 
